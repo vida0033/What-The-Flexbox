@@ -28,7 +28,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box10 { background:#16a085;}
 
 
-/* We start writing out flexbox here. The above is just page setup */
+/* We start writing our flexbox here. The above is just page setup */
 .container {
   display:flex;
 }
@@ -37,10 +37,10 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   flex:1;
 }
 
-.box3 {
-  order:1;
+.box3{
+  order: -1;
 }
 
-.box5 {
-  order:2;
+.box9{
+  order: -2;
 }
