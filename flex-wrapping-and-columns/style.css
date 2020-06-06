@@ -14,7 +14,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   text-shadow:4px 4px 0 rgba(0,0,0,0.1);
   padding:10px;
 }
-
+/* image sets???? */
 /* Colours for each box */
 .box1 { background:#1abc9c;}
 .box2 { background:#3498db;}
@@ -42,13 +42,12 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   flex-grow:1;
 }
 
-
 .box3 {
-  flex-grow:5;
+ flex-grow: 5;
 }
 
 .box4 {
-  flex-basis:100px;  
+  flex-basis: 100px;
 }
 
 

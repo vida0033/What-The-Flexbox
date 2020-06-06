@@ -3,7 +3,7 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -43,8 +43,17 @@ a:hover {
   list-style: none;
   margin: 0;
   padding: 0;
-  
+  display: flex;
 }
+
+.flex-nav li {
+  flex: 1;
+}
+
+.flex-nav .social
+
+
+
 
 
 @media all and (max-width:1000px) {

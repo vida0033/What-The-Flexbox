@@ -33,12 +33,27 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display:flex;
 }
 
-.box1 {
-  flex:10 5 400px;
-}
 
-.box2 {
-  flex:1 1 400px;
-}
+.box1{
+   flex:10 5 400px;
+  }
+  
+  .box2 {
+    
+    flex:1 1 400px;
+    
+  }
+
+  /** Side Note
+  You'll notice a little before 4:50 of the "Finally understanding Flexbox flex-grow, flex-shrink and flex-basis" video
+  that Wes does the neat thing of, from his keyboard alone (aside from selecting it), copying and moving a line of code to the desired location.
+  You can do this by first selecting the line you want to copy, then hold shift-alt and finally moving exactly once the up or down 
+  arrow key. You can continue to move this new line by holding alt while pressing the up and down arrow keys.
+  
+  */
+  
+  alt shift-alt
+
+
 
 
